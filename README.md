@@ -2,13 +2,14 @@
 
 El análisis de sábanas de telefonía celular constituye un área de relevancia para las investigaciones penales. Este tipo de evidencia digital ha tomado cada vez más importancia debido a que toda persona utiliza redes de telefonía celular para la comunicación.
 
-El análisis de dicha información presenta ciertos desafíos ya que requiere de un conocimiento específico en la temática y de ciertos datos que proporcionan las empresas prestatarias. En este contexto, en el estado del arte no se observan opciones exclusivamente dedicadas a este tipo de pericias. En muchos casos, los analistas deben realizar dicha tareas empleando procesos manuales con mínima asistencia tecnológica. 
+El análisis de dicha información presenta ciertos desafíos ya que requiere de un conocimiento específico en la temática y de ciertos datos que proporcionan las empresas prestatarias. En este contexto, en el estado del arte no se observan opciones exclusivamente dedicadas a este tipo de pericias. En muchos casos, los analistas deben realizar dichas tareas empleando procesos manuales con mínima asistencia tecnológica. 
 
 En este trabajo se presenta una herramienta open source con el objetivo de facilitar las tareas a los analistas. Entre otras cosas, el sistema permite:
 - Cargar sábanas de telefonía en lotes.
 - Visualizar los registros de comunicaciones y las áreas de cobertura de las antenas que gestionan dichas comunicaciones, representadas en un mapa satelital.
 - Mantener una base de datos de antenas que se retroalimenta con la información de los registros cargados de datos de emplazamiento.
 - Herramientas interactivas que facilitan un análisis geoespacial más intuitivo.
+- Facilitar un análisis geoespacial más intuitivo mediante herramientas interactivas.
 
 En síntesis, esta herramienta constituye un aporte significativo a la labor de análisis, ofreciendo un soporte tecnológico para analizar evidencia digital en procesos judiciales.
 
@@ -27,6 +28,10 @@ Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional S
 
 - Directora: Dra. Garis Ana Gabriela.
 - Co-Director: Dr. Miranda Enrique Alfredo.
+
+## Tutor institucional
+
+- Ing. David Alejandro Fuentes — DIDC, Poder Judicial de San Luis.
  
 ## 🛠️ Tecnologías utilizadas
 * **Frontend:** PyQt, Qt Designer.
