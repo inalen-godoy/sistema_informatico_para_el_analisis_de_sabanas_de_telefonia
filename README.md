@@ -35,7 +35,7 @@ Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional S
  
 ## 🛠️ Tecnologías utilizadas
 * **Frontend:** PyQt, Qt Designer.
-* **Backend:** PyQGIS, Camelot pdf, Pandas.
+* **Backend:** PyQGIS, Camelot, Pandas.
 * **Gestor de Base de Datos:** PostgreSQL/PostGIS.
 
 ## 🚀 Aspectos Técnicos
@@ -48,7 +48,7 @@ Cada componente del patrón MVC se estructuró de la siguiente manera:
   - Service: Contiene servicios de aplicación y de QGIS. Los servicios de aplicación contienen la lógica de negocio del sistema y coordinan las operaciones entre los distintos componentes del modelo. Por su parte, los servicios de QGIS encapsulan el acceso a la API de PyQGIS para realizar operaciones geoespaciales, tales como la generación y gestión de los elementos geográficos que representan antenas y emplazamientos en el mapa.
   - Repository: Encapsulan el acceso a datos, aislando la lógica de negocio de la persistencia. Para la lectura y escritura de archivos en formato JSON se utiliza la biblioteca estándar JSON, mientras que la interacción con la base de datos se realiza a través del componente Database, permitiendo almacenar y recuperar la información asociada a las entidades del sistema.
   - Factory: Centralizan la creación de objetos del dominio, y facilita la instanciación de los diferentes tipos de lectores de sábanas de telefonía.
-  - Strategies: Implementan algoritmos intercambiables para la lectura de sábanas de telefonía según la empresa y el formato de archivo. Para ello se utilizan las bibliotecas Pandas y Camelot pdf, destinadas a la lectura de archivos Excel y PDF, respectivamente.
+  - Strategies: Implementan algoritmos intercambiables para la lectura de sábanas de telefonía según la empresa y el formato de archivo. Para ello se utilizan las bibliotecas Pandas y Camelot, destinadas a la lectura de archivos Excel y PDF, respectivamente.
   - Entities: Representa a las entidades del dominio que modelan la información gestionada por el sistema.
   - Database: Gestiona la conexión con la base de datos PostGis, en la cual almacena la información geoespacial de antenas y emplazamientos. 
 * `/Views`: Provee una interfaz gráfica de usuario (GUI) mediante la cuál el analista puede interactuar con las distintas funcionalidades que provee el sistema. Se implementó mediante PyQt y widgets específicos de PyQGIS, que permiten la construcción de la GUI y la visualización de mapas, capas vectoriales y ráster. 
