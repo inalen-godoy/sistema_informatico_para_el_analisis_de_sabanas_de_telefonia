@@ -38,7 +38,7 @@ Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional S
 * **Backend:** PyQGIS, Camelot, Pandas.
 * **Gestor de Base de Datos:** PostgreSQL/PostGIS.
 
-## 🚀 Aspectos Técnicos
+## ⚙️ Aspectos Técnicos
 * **Arquitectura:** Modelo-Vista-Controlador.
 * **Patrones de diseño:**  Singleton, Strategy, Simple Factory y Repository.
   
@@ -53,7 +53,8 @@ Cada componente del patrón MVC se estructuró de la siguiente manera:
   - Database: Gestiona la conexión con la base de datos PostGis, en la cual almacena la información geoespacial de antenas y emplazamientos. 
 * `/Views`: Provee una interfaz gráfica de usuario (GUI) mediante la cuál el analista puede interactuar con las distintas funcionalidades que provee el sistema. Se implementó mediante PyQt y widgets específicos de PyQGIS, que permiten la construcción de la GUI y la visualización de mapas, capas vectoriales y ráster. 
 * `/Controllers`: Es el intermediario entre el modelo y la vista, gestionando eventos generados por el usuario e invocando peticiones al modelo. 
-
+* `/Resources`: Contiene recursos auxiliares utilizados por la aplicación, incluyendo íconos, archivos de interfaz gráfica y archivos JSON con información geográfica utilizada por el sistema.
+  
 ## Documentation
 El funcionamiento de los distintos módulos del sistema se encuentra documentado a través de una serie de videos explicativos, en los cuales se presenta de manera detallada el proceso de utilización de la herramienta. Estos materiales forman parte de la documentación del sistema, y se encuentran disponible en:
 
