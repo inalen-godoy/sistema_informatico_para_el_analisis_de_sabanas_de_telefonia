@@ -62,5 +62,3 @@ El funcionamiento de los distintos módulos del sistema se encuentra documentado
 ## Licencia
 GNU GPL v3
 
-## Installation
-
