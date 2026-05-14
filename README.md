@@ -18,7 +18,7 @@ Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional S
 
 ## Autora
 
-- Inalén Godoy.  
+- Inalen Godoy.  
 - Técnico Universitario en Web.  
 - Estudiante de Ingeniería en Informática.  
 - Universidad Nacional de San Luis.
