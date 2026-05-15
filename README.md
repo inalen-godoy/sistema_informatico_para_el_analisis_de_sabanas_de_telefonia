@@ -21,7 +21,8 @@ En síntesis, esta herramienta constituye un aporte significativo a la labor de 
 
 - Módulo de gestión de antenas.
   
-<img width="1920" height="1028" alt="Captura de pantalla 2026-05-15 160423" src="https://github.com/user-attachments/assets/883aa44a-1dcd-4824-84f6-2eb980f68289" />
+<img width="1920" height="1027" alt="Captura de pantalla 2026-05-15 181826" src="https://github.com/user-attachments/assets/92bf1abe-7495-48e6-a026-3a34df798d75" />
+
 
 
 ## Contexto académico
