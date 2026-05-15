@@ -12,6 +12,8 @@ En este trabajo se presenta una herramienta open source con el objetivo de facil
 - Facilitar un análisis geoespacial más intuitivo mediante herramientas interactivas.
 
 En síntesis, esta herramienta constituye un aporte significativo a la labor de análisis, ofreciendo un soporte tecnológico para analizar evidencia digital en procesos judiciales.
+## Vistas de la aplicación
+<img width="1920" height="1027" alt="Captura de pantalla 2026-05-15 143234" src="https://github.com/user-attachments/assets/4bb41d27-693b-46f3-ba0e-08e063fc5367" />
 
 ## Contexto académico
 Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional Supervisada realizada en el Departamento de Investigación de Delitos Complejos del Poder Judicial de San Luis, y posteriormente continuó como parte del Proyecto Integrador de la carrera Ingeniería en Informática de la Universidad Nacional de San Luis.
