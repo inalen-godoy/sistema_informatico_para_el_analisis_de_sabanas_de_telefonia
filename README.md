@@ -14,6 +14,19 @@ Asimismo, la herramienta fue validada mediante una encuesta aplicada a 13 analis
 
 En síntesis, esta herramienta constituye un aporte significativo a la labor de análisis, ofreciendo un soporte tecnológico para analizar evidencia digital en procesos judiciales.
 
+## Funcionalidades
+- Gestionar casos.
+- Gestionar antenas.
+- Cargar sábana de telefonía.
+- Mostrar en mapa eventos registrados.
+- Mostrar en mapa antenas y emplazamientos.
+- Agregar acotaciones a eventos.
+- Marcar en mapa elementos de interés para la investigación.
+- Identificar y mostrar en mapa llamadas en común.
+- Medir en mapa distancias entre puntos y áreas de interés. 
+- Mostrar mapa de intensidad de llamadas.
+- Filtrar eventos de interés.
+
 ## Vistas de la aplicación
 - Módulo de análisis de sábanas de telefonía.
 <img width="1920" height="1027" alt="Captura de pantalla 2026-05-15 172832 (1)" src="https://github.com/user-attachments/assets/8ce2af5b-ff83-4ccc-abb2-1a75e1a1e0da" />
@@ -67,6 +80,7 @@ Cada componente del patrón MVC se estructuró de la siguiente manera:
 * `/Controllers`: Es el intermediario entre el modelo y la vista, gestionando eventos generados por el usuario e invocando peticiones al modelo. 
 * `/Resources`: Contiene recursos auxiliares utilizados por la aplicación, incluyendo iconos, archivos de interfaz gráfica y archivos JSON con información geográfica utilizada por el sistema.
   
+
 ## Documentation
 El funcionamiento de los distintos módulos del sistema se encuentra documentado a través de una serie de videos explicativos, en los cuales se presenta de manera detallada el proceso de utilización de la herramienta. Estos materiales forman parte de la documentación del sistema, y se encuentran disponible en:
 
