@@ -8,7 +8,6 @@ En este trabajo se presenta una herramienta open source con el objetivo de facil
 - Cargar sábanas de telefonía en lotes.
 - Visualizar los registros de comunicaciones y las áreas de cobertura de las antenas que gestionan dichas comunicaciones, representadas en un mapa satelital.
 - Mantener una base de datos de antenas que se retroalimenta con la información de los registros cargados de datos de emplazamiento.
-- Herramientas interactivas que facilitan un análisis geoespacial más intuitivo.
 - Facilitar un análisis geoespacial más intuitivo mediante herramientas interactivas.
 
 En síntesis, esta herramienta constituye un aporte significativo a la labor de análisis, ofreciendo un soporte tecnológico para analizar evidencia digital en procesos judiciales.
