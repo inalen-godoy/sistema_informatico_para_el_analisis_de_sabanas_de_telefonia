@@ -2,20 +2,26 @@
 
 El análisis de sábanas de telefonía celular constituye un área de relevancia para las investigaciones penales. Este tipo de evidencia digital ha tomado cada vez más importancia debido a que toda persona utiliza redes de telefonía celular para la comunicación.
 
-El análisis de dicha información presenta ciertos desafíos ya que requiere de un conocimiento específico en la temática y de ciertos datos que proporcionan las empresas prestatarias. En este contexto, en el estado del arte no se observan opciones exclusivamente dedicadas a este tipo de pericias. En muchos casos, los analistas deben realizar dichas tareas empleando procesos manuales con mínima asistencia tecnológica. 
+El análisis de dicha información presenta ciertos desafíos, ya que requiere conocimientos específicos sobre telecomunicaciones, geolocalización y evidencia digital, además del acceso a datos técnicos proporcionados por las empresas prestatarias. Si bien existen herramientas orientadas al análisis de telecomunicaciones y a la representación geoespacial de estos registros, muchas de ellas presentan limitaciones vinculadas a su alto costo de licenciamiento, restricciones de acceso institucional, dependencia de software propietario o falta de adaptación a las necesidades particulares del ámbito judicial local. En consecuencia, en numerosos casos los analistas continúan realizando estas tareas mediante procesos manuales o con mínima asistencia tecnológica.
 
 En este trabajo se presenta una herramienta open source con el objetivo de facilitar las tareas a los analistas. Entre otras cosas, el sistema permite:
 - Cargar sábanas de telefonía en lotes.
-- Visualizar los registros de comunicaciones y las áreas de cobertura de las antenas que gestionan dichas comunicaciones, representadas en un mapa satelital.
-- Mantener una base de datos de antenas que se retroalimenta con la información de los registros cargados de datos de emplazamiento.
-- Facilitar un análisis geoespacial más intuitivo mediante herramientas interactivas.
+- Visualizar los registros de comunicaciones y las áreas de cobertura de las antenas que gestionan dichas comunicaciones representadas en un mapa satelital.
+- Mantener una base de datos de antenas que se retroalimenta con la información de los registros cargados de datos de emplazamientos de antenas.
+- Facilitar un análisis geoespacial más intuitivo mediante distintas herramientas interactivas.
+
+Asimismo, la herramienta fue validada mediante una encuesta aplicada a 13 analistas especializados, quienes, a partir de una demostración, consideraron que la solución propuesta responde adecuadamente a las necesidades del entorno judicial. 
 
 En síntesis, esta herramienta constituye un aporte significativo a la labor de análisis, ofreciendo un soporte tecnológico para analizar evidencia digital en procesos judiciales.
+
 ## Vistas de la aplicación
 - Módulo de análisis de sábanas de telefonía.
-<img width="1920" height="1027" alt="Captura de pantalla de módulo de anaálisis de sábanas" src="https://github.com/user-attachments/assets/4bb41d27-693b-46f3-ba0e-08e063fc5367" />
+<img width="1920" height="1027" alt="Captura de pantalla 2026-05-15 172832 (1)" src="https://github.com/user-attachments/assets/8ce2af5b-ff83-4ccc-abb2-1a75e1a1e0da" />
+
+
 - Módulo de gestión de antenas.
-<img width="1920" height="1028" alt="Captura de pantalla de módulo de gestión de antenas" src="https://github.com/user-attachments/assets/5154ef3f-34d7-4f35-a05b-518bc1848b22" />
+  
+<img width="1920" height="1028" alt="Captura de pantalla 2026-05-15 160423" src="https://github.com/user-attachments/assets/883aa44a-1dcd-4824-84f6-2eb980f68289" />
 
 
 ## Contexto académico
