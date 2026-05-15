@@ -12,7 +12,9 @@ En este trabajo se presenta una herramienta open source con el objetivo de facil
 
 En síntesis, esta herramienta constituye un aporte significativo a la labor de análisis, ofreciendo un soporte tecnológico para analizar evidencia digital en procesos judiciales.
 ## Vistas de la aplicación
+- Módulo de análisis de sábanas de telefonía.
 <img width="1920" height="1027" alt="Captura de pantalla de módulo de anaálisis de sábanas" src="https://github.com/user-attachments/assets/4bb41d27-693b-46f3-ba0e-08e063fc5367" />
+- Módulo de gestión de antenas.
 <img width="1920" height="1028" alt="Captura de pantalla de módulo de gestión de antenas" src="https://github.com/user-attachments/assets/5154ef3f-34d7-4f35-a05b-518bc1848b22" />
 
 
