@@ -14,18 +14,30 @@ Asimismo, la herramienta fue validada mediante una encuesta aplicada a 13 analis
 
 En síntesis, esta herramienta constituye un aporte significativo a la labor de análisis, ofreciendo un soporte tecnológico para analizar evidencia digital en procesos judiciales.
 
-## Funcionalidades
-- Gestionar casos.
-- Gestionar antenas.
-- Cargar sábana de telefonía.
-- Mostrar en mapa eventos registrados.
-- Mostrar en mapa antenas y emplazamientos.
-- Agregar acotaciones a eventos.
-- Marcar en mapa elementos de interés para la investigación.
-- Identificar y mostrar en mapa llamadas en común.
-- Medir en mapa distancias entre puntos y áreas de interés. 
-- Mostrar mapa de intensidad de llamadas.
-- Filtrar eventos de interés.
+## Funcionalidades y documentación
+- **Módulo de Gestión de antenas:** Este módulo concentra operaciones vinculadas a la administración de emplazamientos de antenas.
+    - Registro de antenas de forma manual o en lotes,
+    - Visualización cartográfica.
+    - Modificación o eliminación de antenas.
+    - Búsquedas avanzadas mediante atributos o restringido a un área geográfica.
+    - Gestión de duplicados con información conflictiva.
+- **Módulo de Análisis de sábanas:** Este módulo proporciona funcionalidades destinadas al análisis de registros de comunicaciones.
+    - Gestionar casos: Posibilita crear un nuevo caso, modificarlo, o consultar uno ya existente.
+    - Cargar sábana: Registra sábanas de telefonía y añade eventos.
+    - Mostrar en mapa eventos registrados: Resalta el evento y visualiza la antena asociada.
+    - Mostrar en mapa antenas y emplazamientos: Proporciona herramientas para navegación en el mapa e identificación de antenas.
+    - Agregar acotaciones a eventos: Facilita añadir notas a eventos o separadores dentro de una misma sábana.
+    - Marcar en mapa elementos de interés para la investigación: Marca puntos o delimita zonas mediante puntos o figuras geométricas respectivamente.
+    - Análisis de llamadas: Permite identificar eventos de llamada y muestra en el mapa la zona de cobertura de la antena a la que se conectó el emisor y el receptor de una llamada.
+    - Medir en mapa distancia entre puntos y áreas de interés: Mide distancia entre puntos, y el área de un polígono en el mapa.
+    - Mostrar mapa de intensidad de eventos: Visualiza gráficamente la concentración del tráfico de llamadas y datos.
+    - Filtrar eventos de interés: Aplica distintos tipos de filtrado a los eventos de las sábanas.
+
+
+El funcionamiento de los distintos módulos del sistema se encuentra documentado a través de una serie de videos explicativos, en los cuales se presenta de manera detallada el proceso de utilización de la herramienta. Estos materiales forman parte de la documentación del sistema, y se encuentran disponible en:
+
+[Documentation](https://drive.google.com/drive/folders/1XyNMOh3Fewj9Q-2PcdP7JpQ2pkv5i0Qu?usp=sharing)
+
 
 ## Vistas de la aplicación
 - Módulo de análisis de sábanas de telefonía.
@@ -80,12 +92,6 @@ Cada componente del patrón MVC se estructuró de la siguiente manera:
 * `/Controllers`: Es el intermediario entre el modelo y la vista, gestionando eventos generados por el usuario e invocando peticiones al modelo. 
 * `/Resources`: Contiene recursos auxiliares utilizados por la aplicación, incluyendo iconos, archivos de interfaz gráfica y archivos JSON con información geográfica utilizada por el sistema.
   
-
-## Documentation
-El funcionamiento de los distintos módulos del sistema se encuentra documentado a través de una serie de videos explicativos, en los cuales se presenta de manera detallada el proceso de utilización de la herramienta. Estos materiales forman parte de la documentación del sistema, y se encuentran disponible en:
-
-[Documentation](https://drive.google.com/drive/folders/1XyNMOh3Fewj9Q-2PcdP7JpQ2pkv5i0Qu?usp=sharing)
-
 ## Licencia
 GNU GPL v3
 
