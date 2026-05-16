@@ -14,7 +14,7 @@ Asimismo, la herramienta fue validada mediante una encuesta aplicada a 13 analis
 
 En síntesis, esta herramienta constituye un aporte significativo a la labor de análisis, ofreciendo un soporte tecnológico para analizar evidencia digital en procesos judiciales.
 
-## Funcionalidades y documentación
+## 🧩 Funcionalidades y documentación
 - **Módulo de Gestión de antenas:** Este módulo concentra operaciones vinculadas a la administración de emplazamientos de antenas.
     - Gestionar antenas:
         - Registro de antenas de forma manual o en lotes.
@@ -44,7 +44,7 @@ El funcionamiento de los distintos módulos del sistema se encuentra documentado
 [Documentation](https://drive.google.com/drive/folders/1XyNMOh3Fewj9Q-2PcdP7JpQ2pkv5i0Qu?usp=sharing)
 
 
-## Vistas de la aplicación
+## 🖼️ Vistas de la aplicación
 - Módulo de análisis de sábanas de telefonía.
 <img width="1920" height="1027" alt="Captura de pantalla 2026-05-15 172832 (1)" src="https://github.com/user-attachments/assets/8ce2af5b-ff83-4ccc-abb2-1a75e1a1e0da" />
 
@@ -75,25 +75,27 @@ Cada componente del patrón MVC se estructuró de la siguiente manera:
 * `/Controllers`: Es el intermediario entre el modelo y la vista, gestionando eventos generados por el usuario e invocando peticiones al modelo. 
 * `/Resources`: Contiene recursos auxiliares utilizados por la aplicación, incluyendo iconos, archivos de interfaz gráfica y archivos JSON con información geográfica utilizada por el sistema.
 
-## Contexto académico
-Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional Supervisada realizada en el Departamento de Investigación de Delitos Complejos del Poder Judicial de San Luis, y posteriormente continuó como parte del Proyecto Integrador de la carrera Ingeniería en Informática de la Universidad Nacional de San Luis.
+## 🎓 Contexto académico 
+Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional Supervisada realizada en el Departamento de Investigación de Delitos Complejos (DIDC) del Poder Judicial de San Luis, y posteriormente continuó como parte del Proyecto Integrador de la carrera Ingeniería en Informática de la Universidad Nacional de San Luis (UNSL).
+
+<img height="30" alt="ggg" src="https://github.com/user-attachments/assets/ce3c887c-5956-4029-b44f-41e255550901" />
 
 ## Autora
-
 - Inalen Godoy.  
 - Técnico Universitario en Web.  
-- Estudiante de Ingeniería en Informática.  
+- Estudiante de Ingeniería en Informática.
+- Facultad de Ciencias Físico Matemáticas y Naturales
 - Universidad Nacional de San Luis.
 - [LinkedIn](http://www.linkedin.com/in/inalen-godoy-79238b13a/)
 
 ## Dirección académica
 
-- Directora: Dra. Garis Ana Gabriela. [LinkedIn](https://)
-- Co-Director: Dr. Miranda Enrique Alfredo. [LinkedIn](https://)
+- Directora: Dra. Garis Ana Gabriela - UNSL - [LinkedIn](https://)
+- Co-Director: Dr. Miranda Enrique Alfredo - UNSL - [LinkedIn](https://)
 
 ## Tutor institucional
 
-- Ing. David Alejandro Fuentes — DIDC, Poder Judicial de San Luis.
+- Ing. David Alejandro Fuentes - DIDC, Poder Judicial de San Luis.
 
 ## Publicaciones
 Se participó del 13° Congreso Nacional de Ingeniería Informática y Sistemas de Información, CoNaIISI 2025, organizado por la Red RIISIC y la Universidad Tecnológica Nacional. En dicho evento se presentó el trabajo titulado "Sistema Informático para el Peritaje de Comunicaciones Móviles", en la categoría Trabajo de I+D+i de Estudiantes extra-cátedra. La propuesta fue aceptada para su exposición oral, y posteriormente fue seleccionada entre los 3 mejores trabajos del simposio.
