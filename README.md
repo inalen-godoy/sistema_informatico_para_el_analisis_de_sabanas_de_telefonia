@@ -34,7 +34,7 @@ En síntesis, esta herramienta constituye un aporte significativo a la labor de 
     - Filtrar eventos de interés: Aplica distintos tipos de filtrado a los eventos de las sábanas.
 
 
-El funcionamiento de los distintos módulos del sistema se encuentra documentado a través de una serie de videos explicativos, en los cuales se presenta de manera detallada el proceso de utilización de la herramienta. Estos materiales forman parte de la documentación del sistema, y se encuentran disponible en:
+El funcionamiento de los distintos módulos del sistema se encuentra documentado a través de una serie de videos explicativos, en los cuales se presenta de manera detallada el proceso de utilización de la herramienta. Estos materiales forman parte de la documentación del sistema, y se encuentran disponibles en:
 
 [Documentation](https://drive.google.com/drive/folders/1XyNMOh3Fewj9Q-2PcdP7JpQ2pkv5i0Qu?usp=sharing)
 
@@ -87,8 +87,8 @@ Cada componente del patrón MVC se estructuró de la siguiente manera:
   - Factory: Centralizan la creación de objetos del dominio, y facilita la instanciación de los diferentes tipos de lectores de sábanas de telefonía.
   - Strategies: Implementan algoritmos intercambiables para la lectura de sábanas de telefonía según la empresa y el formato de archivo. Para ello se utilizan las bibliotecas Pandas y Camelot, destinadas a la lectura de archivos de planilla de cálculo y PDF, respectivamente.
   - Entities: Representa a las entidades del dominio que modelan la información gestionada por el sistema.
-  - Database: Gestiona la conexión con la base de datos PostGis, en la cual almacena la información geoespacial de antenas y emplazamientos. 
-* `/Views`: Provee una interfaz gráfica de usuario (GUI) mediante la cuál el analista puede interactuar con las distintas funcionalidades que provee el sistema. Se implementó mediante PyQt y widgets específicos de PyQGIS, que permiten la construcción de la GUI y la visualización de mapas, capas vectoriales y ráster. 
+  - Database: Gestiona la conexión con la base de datos PostGIS, en la cual almacena la información geoespacial de antenas y emplazamientos. 
+* `/Views`: Provee una interfaz gráfica de usuario (GUI) mediante la cual el analista puede interactuar con las distintas funcionalidades que provee el sistema. Se implementó mediante PyQt y widgets específicos de PyQGIS, que permiten la construcción de la GUI y la visualización de mapas, capas vectoriales y ráster. 
 * `/Controllers`: Es el intermediario entre el modelo y la vista, gestionando eventos generados por el usuario e invocando peticiones al modelo. 
 * `/Resources`: Contiene recursos auxiliares utilizados por la aplicación, incluyendo iconos, archivos de interfaz gráfica y archivos JSON con información geográfica utilizada por el sistema.
   
