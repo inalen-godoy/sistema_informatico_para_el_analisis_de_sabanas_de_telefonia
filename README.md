@@ -59,7 +59,7 @@ Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional S
 - Técnico Universitario en Web.  
 - Estudiante de Ingeniería en Informática.  
 - Universidad Nacional de San Luis.
-- [LinkedIn](https://www.linkedin.com/in/inal%C3%A9n-godoy-79238b13a/)
+- [LinkedIn](http://www.linkedin.com/in/inalen-godoy-79238b13a/)
 
 ## Dirección académica
 
