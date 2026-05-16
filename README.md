@@ -63,8 +63,8 @@ Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional S
 
 ## Dirección académica
 
-- Directora: Dra. Garis Ana Gabriela.
-- Co-Director: Dr. Miranda Enrique Alfredo.
+- Directora: Dra. Garis Ana Gabriela. [LinkedIn](https://)
+- Co-Director: Dr. Miranda Enrique Alfredo. [LinkedIn](https://)
 
 ## Tutor institucional
 
