@@ -7,7 +7,7 @@ El análisis de dicha información presenta ciertos desafíos, ya que requiere c
 En este trabajo se presenta una herramienta open source con el objetivo de facilitar las tareas a los analistas. Entre otras cosas, el sistema permite:
 - Cargar sábanas de telefonía en lotes.
 - Visualizar los registros de comunicaciones y las áreas de cobertura de las antenas que gestionan dichas comunicaciones representadas en un mapa satelital.
-- Mantener una base de datos de antenas que se retroalimenta con la información de los registros cargados de datos de emplazamientos de antenas.
+- Mantener una base de datos (BD) de antenas que se retroalimenta con la información de los registros cargados de datos de emplazamientos de antenas.
 - Facilitar un análisis geoespacial más intuitivo mediante distintas herramientas interactivas.
 
 Asimismo, la herramienta fue validada mediante una encuesta aplicada a 13 analistas especializados, quienes, a partir de una demostración, consideraron que la solución propuesta responde adecuadamente a las necesidades del entorno judicial. 
@@ -16,14 +16,19 @@ En síntesis, esta herramienta constituye un aporte significativo a la labor de 
 
 ## Funcionalidades y documentación
 - **Módulo de Gestión de antenas:** Este módulo concentra operaciones vinculadas a la administración de emplazamientos de antenas.
-    - Registro de antenas de forma manual o en lotes,
-    - Visualización cartográfica.
-    - Modificación o eliminación de antenas.
-    - Búsquedas avanzadas mediante atributos o restringido a un área geográfica.
-    - Gestión de duplicados con información conflictiva.
+    - Gestionar antenas:
+        - Registro de antenas de forma manual o en lotes.
+        - Visualización cartográfica.
+        - Modificación o eliminación de antenas.
+        - Búsquedas avanzadas mediante atributos o restringido a un área geográfica.
+        - Gestión de duplicados con información conflictiva.
 - **Módulo de Análisis de sábanas:** Este módulo proporciona funcionalidades destinadas al análisis de registros de comunicaciones.
     - Gestionar casos: Posibilita crear un nuevo caso, modificarlo, o consultar uno ya existente.
-    - Cargar sábana: Registra sábanas de telefonía y añade eventos.
+    - Cargar sábana: Registra sábanas de telefonía de forma manual o en lotes, según sea el caso puede realizar alguna de las siguientes tareas:
+        - Registrar las antenas faltantes: Realiza el alta de aquellas antenas que se encuentran especificadas en la sábana cargada y no se encuentran registradas en la BD.
+        - Completar datos de las ya existentes: Actualiza información faltante de antenas ya registradas en la BD cuando dichos datos se encuentran especificados en la sábana cargada.
+        - Registrar duplicados: Identifica duplicados de emplazamientos de antenas con información conflictiva, evitando la sobreescritura de los datos existentes en la BD y almacenando la información para su posterior gestión.
+        - Registrar la sábana y añadir sus eventos.
     - Mostrar en mapa eventos registrados: Resalta el evento y visualiza la antena asociada.
     - Mostrar en mapa antenas y emplazamientos: Proporciona herramientas para navegación en el mapa e identificación de antenas.
     - Agregar acotaciones a eventos: Facilita añadir notas a eventos o separadores dentro de una misma sábana.
@@ -48,28 +53,6 @@ El funcionamiento de los distintos módulos del sistema se encuentra documentado
   
 <img width="1920" height="1027" alt="Captura de pantalla 2026-05-15 181826" src="https://github.com/user-attachments/assets/92bf1abe-7495-48e6-a026-3a34df798d75" />
 
-
-
-## Contexto académico
-Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional Supervisada realizada en el Departamento de Investigación de Delitos Complejos del Poder Judicial de San Luis, y posteriormente continuó como parte del Proyecto Integrador de la carrera Ingeniería en Informática de la Universidad Nacional de San Luis.
-
-## Autora
-
-- Inalen Godoy.  
-- Técnico Universitario en Web.  
-- Estudiante de Ingeniería en Informática.  
-- Universidad Nacional de San Luis.
-- [LinkedIn](http://www.linkedin.com/in/inalen-godoy-79238b13a/)
-
-## Dirección académica
-
-- Directora: Dra. Garis Ana Gabriela. [LinkedIn](https://)
-- Co-Director: Dr. Miranda Enrique Alfredo. [LinkedIn](https://)
-
-## Tutor institucional
-
-- Ing. David Alejandro Fuentes — DIDC, Poder Judicial de San Luis.
- 
 ## 🛠️ Tecnologías utilizadas
 * **Frontend:** PyQt, Qt Designer.
 * **Backend:** PyQGIS, Camelot, Pandas.
@@ -91,7 +74,30 @@ Cada componente del patrón MVC se estructuró de la siguiente manera:
 * `/Views`: Provee una interfaz gráfica de usuario (GUI) mediante la cual el analista puede interactuar con las distintas funcionalidades que provee el sistema. Se implementó mediante PyQt y widgets específicos de PyQGIS, que permiten la construcción de la GUI y la visualización de mapas, capas vectoriales y ráster. 
 * `/Controllers`: Es el intermediario entre el modelo y la vista, gestionando eventos generados por el usuario e invocando peticiones al modelo. 
 * `/Resources`: Contiene recursos auxiliares utilizados por la aplicación, incluyendo iconos, archivos de interfaz gráfica y archivos JSON con información geográfica utilizada por el sistema.
-  
+
+## Contexto académico
+Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional Supervisada realizada en el Departamento de Investigación de Delitos Complejos del Poder Judicial de San Luis, y posteriormente continuó como parte del Proyecto Integrador de la carrera Ingeniería en Informática de la Universidad Nacional de San Luis.
+
+## Autora
+
+- Inalen Godoy.  
+- Técnico Universitario en Web.  
+- Estudiante de Ingeniería en Informática.  
+- Universidad Nacional de San Luis.
+- [LinkedIn](http://www.linkedin.com/in/inalen-godoy-79238b13a/)
+
+## Dirección académica
+
+- Directora: Dra. Garis Ana Gabriela. [LinkedIn](https://)
+- Co-Director: Dr. Miranda Enrique Alfredo. [LinkedIn](https://)
+
+## Tutor institucional
+
+- Ing. David Alejandro Fuentes — DIDC, Poder Judicial de San Luis.
+
+## Publicaciones
+Se participó del 13° Congreso Nacional de Ingeniería Informática y Sistemas de Información, CoNaIISI 2025, organizado por la Red RIISIC y la Universidad Tecnológica Nacional. En dicho evento se presentó el trabajo titulado "Sistema Informático para el Peritaje de Comunicaciones Móviles", en la categoría Trabajo de I+D+i de Estudiantes extra-cátedra. La propuesta fue aceptada para su exposición oral, y posteriormente fue seleccionada entre los 3 mejores trabajos del simposio.
+
 ## Licencia
 GNU GPL v3
 
