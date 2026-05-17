@@ -76,7 +76,7 @@ Cada componente del patrón MVC se estructuró de la siguiente manera:
 * `/Resources`: Contiene recursos auxiliares utilizados por la aplicación, incluyendo iconos, archivos de interfaz gráfica y archivos JSON con información geográfica utilizada por el sistema.
 
 ## 🎓 Contexto académico 
-Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional Supervisada realizada en el Departamento de Investigación de Delitos Complejos (DIDC) del Poder Judicial de San Luis, y posteriormente continuó como parte del Proyecto Integrador de la carrera Ingeniería en Informática de la Universidad Nacional de San Luis (UNSL).
+Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional Supervisada realizada en el Departamento de Investigación de Delitos Complejos (DIDC) del Poder Judicial de San Luis, y posteriormente continuó como parte del Proyecto Integrador de la carrera Ingeniería en Informática de la Facultad de Ciencias Físico Matemáticas y Naturales de la Universidad Nacional de San Luis (UNSL).
 
 <img height="30" alt="ggg" src="https://github.com/user-attachments/assets/ce3c887c-5956-4029-b44f-41e255550901" />
 
@@ -84,8 +84,7 @@ Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional S
 - Inalen Godoy.  
 - Técnico Universitario en Web.  
 - Estudiante de Ingeniería en Informática.
-- Facultad de Ciencias Físico Matemáticas y Naturales
-- Universidad Nacional de San Luis.
+- UNSL.
 - [LinkedIn](http://www.linkedin.com/in/inalen-godoy-79238b13a/)
 
 ## Dirección académica
