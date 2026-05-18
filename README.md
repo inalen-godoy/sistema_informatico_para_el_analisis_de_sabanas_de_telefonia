@@ -84,11 +84,11 @@ Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional S
 - Técnico Universitario en Web.  
 - Estudiante de Ingeniería en Informática.
 - UNSL.
-- [LinkedIn](http://www.linkedin.com/in/inalen-godoy-79238b13a/)
+- [LinkedIn](https://www.linkedin.com/in/inalen-godoy-79238b13a/)
 
 ## Dirección académica
 
-- Directora: Dra. Garis Ana Gabriela - UNSL - [LinkedIn](https://)
+- Directora: Dra. Garis Ana Gabriela - UNSL - [LinkedIn](https://www.linkedin.com/in/ana-gabriela-garis/)
 - Co-Director: Dr. Miranda Enrique Alfredo - UNSL - [LinkedIn](https://)
 
 ## Tutor institucional
