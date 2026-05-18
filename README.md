@@ -47,7 +47,7 @@ El funcionamiento de los distintos módulos del sistema se encuentra documentado
 ## 🖼️ Vistas de la aplicación
 - Módulo de análisis de sábanas de telefonía.
 <img width="1917" height="1027" alt="Captura de pantalla 2026-05-18 011635" src="https://github.com/user-attachments/assets/12b4f6f9-00ba-4831-a339-da51ad52b7f5" />
-
+<img width="1920" height="1027" alt="Captura de pantalla 2026-05-18 015303" src="https://github.com/user-attachments/assets/ac3cd016-8a7c-4d57-a72f-58bf7fd2aa2a" />
 - Módulo de gestión de antenas.
 <img width="1920" height="1027" alt="Captura de pantalla 2026-05-15 181826" src="https://github.com/user-attachments/assets/92bf1abe-7495-48e6-a026-3a34df798d75" />
 
