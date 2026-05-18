@@ -46,11 +46,9 @@ El funcionamiento de los distintos módulos del sistema se encuentra documentado
 
 ## 🖼️ Vistas de la aplicación
 - Módulo de análisis de sábanas de telefonía.
-<img width="1920" height="1027" alt="Captura de pantalla 2026-05-15 172832 (1)" src="https://github.com/user-attachments/assets/8ce2af5b-ff83-4ccc-abb2-1a75e1a1e0da" />
-
+<img width="1917" height="1027" alt="Captura de pantalla 2026-05-18 011635" src="https://github.com/user-attachments/assets/12b4f6f9-00ba-4831-a339-da51ad52b7f5" />
 
 - Módulo de gestión de antenas.
-  
 <img width="1920" height="1027" alt="Captura de pantalla 2026-05-15 181826" src="https://github.com/user-attachments/assets/92bf1abe-7495-48e6-a026-3a34df798d75" />
 
 ## 🛠️ Tecnologías utilizadas
@@ -65,12 +63,12 @@ El funcionamiento de los distintos módulos del sistema se encuentra documentado
 ## 📂 Estructura del Proyecto
 Cada componente del patrón MVC se estructuró de la siguiente manera:
 * `/Models`: Gestionó la representación de la información y la lógica de negocio. Se organiza en los siguientes subcomponentes, cada uno con una funcionalidad específica:
-  - Service: Contiene servicios de aplicación y de QGIS. Los servicios de aplicación contienen la lógica de negocio del sistema y coordinan las operaciones entre los distintos componentes del modelo. Por su parte, los servicios de QGIS encapsulan el acceso a la API de PyQGIS para realizar operaciones geoespaciales, tales como la generación y gestión de los elementos geográficos que representan antenas y emplazamientos en el mapa.
-  - Repository: Encapsulan el acceso a datos, aislando la lógica de negocio de la persistencia. Para la lectura y escritura de archivos en formato JSON se utiliza la biblioteca estándar JSON, mientras que la interacción con la base de datos se realiza a través del componente Database, permitiendo almacenar y recuperar la información asociada a las entidades del sistema.
-  - Factory: Centralizan la creación de objetos del dominio, y facilita la instanciación de los diferentes tipos de lectores de sábanas de telefonía.
-  - Strategies: Implementan algoritmos intercambiables para la lectura de sábanas de telefonía según la empresa y el formato de archivo. Para ello se utilizan las bibliotecas Pandas y Camelot, destinadas a la lectura de archivos de planilla de cálculo y PDF, respectivamente.
-  - Entities: Representa a las entidades del dominio que modelan la información gestionada por el sistema.
-  - Database: Gestiona la conexión con la base de datos PostGIS, en la cual almacena la información geoespacial de antenas y emplazamientos. 
+  * `/Service`: Contiene servicios de aplicación y de QGIS. Los servicios de aplicación contienen la lógica de negocio del sistema y coordinan las operaciones entre los distintos componentes del modelo. Por su parte, los servicios de QGIS encapsulan el acceso a la API de PyQGIS para realizar operaciones geoespaciales, tales como la generación y gestión de los elementos geográficos que representan antenas y emplazamientos en el mapa.
+  * `/Repository`: Encapsulan el acceso a datos, aislando la lógica de negocio de la persistencia. Para la lectura y escritura de archivos en formato JSON se utiliza la biblioteca estándar JSON, mientras que la interacción con la base de datos se realiza a través del componente Database, permitiendo almacenar y recuperar la información asociada a las entidades del sistema.
+  * `/Factory`: Centralizan la creación de objetos del dominio, y facilita la instanciación de los diferentes tipos de lectores de sábanas de telefonía.
+  * `/Strategies`: Implementan algoritmos intercambiables para la lectura de sábanas de telefonía según la empresa y el formato de archivo. Para ello se utilizan las bibliotecas Pandas y Camelot, destinadas a la lectura de archivos de planilla de cálculo y PDF, respectivamente.
+  * `/Entities`: Representa a las entidades del dominio que modelan la información gestionada por el sistema.
+  * `/Database`: Gestiona la conexión con la base de datos PostGIS, en la cual almacena la información geoespacial de antenas y emplazamientos. 
 * `/Views`: Provee una interfaz gráfica de usuario (GUI) mediante la cual el analista puede interactuar con las distintas funcionalidades que provee el sistema. Se implementó mediante PyQt y widgets específicos de PyQGIS, que permiten la construcción de la GUI y la visualización de mapas, capas vectoriales y ráster. 
 * `/Controllers`: Es el intermediario entre el modelo y la vista, gestionando eventos generados por el usuario e invocando peticiones al modelo. 
 * `/Resources`: Contiene recursos auxiliares utilizados por la aplicación, incluyendo iconos, archivos de interfaz gráfica y archivos JSON con información geográfica utilizada por el sistema.
