@@ -89,7 +89,7 @@ Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional S
 ## Dirección académica
 
 - Directora: Dra. Garis Ana Gabriela - UNSL - [LinkedIn](https://www.linkedin.com/in/ana-gabriela-garis/)
-- Co-Director: Dr. Miranda Enrique Alfredo - UNSL - [LinkedIn](https://)
+- Co-Director: Dr. Miranda Enrique Alfredo - UNSL - [LinkedIn](https://www.linkedin.com/in/eamiranda-ok/)
 
 ## Tutor institucional
 
