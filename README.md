@@ -99,5 +99,5 @@ Este proyecto comenzó a desarrollarse en el marco de la Práctica Profesional S
 Se participó del 13° Congreso Nacional de Ingeniería Informática y Sistemas de Información, CoNaIISI 2025, organizado por la Red RIISIC y la Universidad Tecnológica Nacional. En dicho evento se presentó el trabajo titulado "Sistema Informático para el Peritaje de Comunicaciones Móviles", en la categoría Trabajo de I+D+i de Estudiantes extra-cátedra. La propuesta fue aceptada para su exposición oral, y posteriormente fue seleccionada entre los 3 mejores trabajos del simposio.
 
 ## Licencia
-GNU GPL v3
+
 
